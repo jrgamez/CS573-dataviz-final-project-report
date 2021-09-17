@@ -1,4 +1,4 @@
-# Data Visualization Project
+# Data Visualization Project Proposal
 
 ## Data
 
