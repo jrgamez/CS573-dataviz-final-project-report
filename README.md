@@ -8,11 +8,11 @@ The data I propose to visualize for my project is ...
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/jrgamez/c0201ec0375049798e90aef67fdc677a)
+[![image](https://user-images.githubusercontent.com/72701739/133905253-31179699-0b8a-4937-9560-0afa7bd0a0d4.PNG)](https://vizhub.com/jrgamez/c0201ec0375049798e90aef67fdc677a)
 
 Also this image containing....
 
-[![image](https://vizhub.com/jrgamez/6fa5ab323e6e4156bbc8375cf611e094)
+[![image](https://user-images.githubusercontent.com/72701739/133905266-7915dd52-a8ac-4d8b-8119-70096f157553.PNG)](https://vizhub.com/jrgamez/6fa5ab323e6e4156bbc8375cf611e094)
 
 Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
