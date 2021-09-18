@@ -4,6 +4,15 @@
 
 The data I propose to visualize for my project is ...
 
+| # | Variable | Type | Description |
+| ------------- | ------------- | ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
+
+Attributes Type: -Attrition_Flag: categorical -Customer_Age: quantitative -Gender: categorical -Education_Level: categorical -Income_Category: categorical -Months_on_book: quantitative -Credit_Limit: quantitative -Total_Revolving_Bal: quantitative -Avg_Open_To_Buy: quantitative -Total_Trans_Amt: quantitative -Avg_Utilization_Ratio: quantitative
+
+- -Is there a relationship between attrition flag and age, education level or income category? -? - -Do people with higher education level use the credit card more? -Is there a correlation between utilization ratio and age or months on book?
+
 ## Prototypes
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
@@ -20,10 +29,10 @@ Also, you can study the [source](https://raw.githubusercontent.com/curran/datavi
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+ * Is there a relationship between age and income category?
+ * How do income categories compare to each other in terms of credit limits and utilization ratios?
+ * Do female customers use the credit card more than male customers?
+ * Do people with higher education level use the credit cards more??
 
 ## Sketches
 
