@@ -36,7 +36,7 @@ The detail of all the columns is presented below:
 
 ## Prototypes
 
-I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still them.
+I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still use them.
 
 [![image](https://user-images.githubusercontent.com/72701739/133905253-31179699-0b8a-4937-9560-0afa7bd0a0d4.PNG)](https://vizhub.com/jrgamez/c0201ec0375049798e90aef67fdc677a)
 
