@@ -64,7 +64,7 @@ I want to use some categorical variables like education level, marital status an
 
 ## Open Questions
 
- * I want to explore more some interactions but I'm having problems understading the events on the browser and how to handle them. Are there more videos about it?
+ * I want to explore more some interactions but I'm having problems understading the events on the browser and how to handle them. Are there any more videos about it? Where can I see more examples?
  * How can I create functions to do the plots once I already created one? I don't know other way of referencing a feature in an object than object.feature
  * I had problems processing my data to create some plots on the homework. Do I need to create my own functions to do the groupings or D3 has some functions already implemented to process the data and group it? Where can I find the documentation?
 
