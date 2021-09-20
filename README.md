@@ -53,6 +53,9 @@ The following tasks and questions will drive the visualization and interaction d
  * Do female customers use the credit card more than male customers?
  * Do people with higher education level use the credit cards more?
  * Is there a relationship between attrition flag and age, education level or income category?
+ * What is the relationship between the usage and card possession?
+
+I want to use some categorical variables like education level, marital status and age group (new column) to filter the data and make the analysis more dynamic and interactive.
 
 ## Sketches
 
@@ -61,6 +64,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Open Questions
 
- * I want to use dynamic plots but I don´t know how to create functions to send the parameters
- * I had problems processing my data to create some plot on the homeworks. Do I need to create my own functions to do the grouping or D3 has some functions already implemented? Also if there are, where can I find the documentatio?
+ * I want to explore more some interactions but I'm having problems understading the events on the browser and how to handle them. Are there more videos about it?
+ * How can I create functions to do the plots once I already created one? I don't know other way of referencing a feature in an object than object.feature
+ * I had problems processing my data to create some plots on the homework. Do I need to create my own functions to do the groupings or D3 has some functions already implemented to process the data and group it? Where can I find the documentation?
 
