@@ -4,7 +4,7 @@
 
 The data I propose to visualize for my project is from https://www.kaggle.com/sakshigoyal7/credit-card-customers
 
-It is a dataset that contains demographic variables about the customers of a bank like age, gender, education level, etc and variables that capture their relationship with them, the patterns of use of their credit cards like transaction amounts, utilization ratio, month on book and credit limit and their current status. After doing some cleaning of the null values and two unnecessary columns, its contains:
+It is a dataset that contains demographic variables about the customers of a bank like age, gender, education level, etc and variables that capture their relationship with them, the patterns of use of their credit cards like transaction amounts, utilization ratio, month on book and credit limit and their current status. After doing some cleaning of the null values present and two unnecessary columns, its final structure contains:
   - 21 columns
   - 7,081 rows
   - 826 kB
@@ -36,15 +36,13 @@ The detail of all the columns is presented below:
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still them.
 
 [![image](https://user-images.githubusercontent.com/72701739/133905253-31179699-0b8a-4937-9560-0afa7bd0a0d4.PNG)](https://vizhub.com/jrgamez/c0201ec0375049798e90aef67fdc677a)
 
-Also this image containing....
+The second one is a grouped bar chart that shows the average amount spent by the customers using their credit cards by gender and education level. The gender was encoded using different color and the bars where placed next to each other to compare between both genders within the same education level. Also one goal is to see how the amounts spent tend to change as the customers acquire a higher education level.
 
 [![image](https://user-images.githubusercontent.com/72701739/133905266-7915dd52-a8ac-4d8b-8119-70096f157553.PNG)](https://vizhub.com/jrgamez/6fa5ab323e6e4156bbc8375cf611e094)
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
 ## Questions & Tasks
 
@@ -63,4 +61,6 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+ * I want to use dynamic plots but I don´t know how to create functions to send the parameters
+ * I had problems processing my data to create some plot on the homeworks. Do I need to create my own functions to do the grouping or D3 has some functions already implemented? Also if there are, where can I find the documentatio?
+
