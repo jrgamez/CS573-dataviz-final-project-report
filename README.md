@@ -48,8 +48,8 @@ The second one is a grouped bar chart that shows the average amount spent by the
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * Is there a relationship between age and income category?
- * How do income categories compare to each other in terms of credit limits and utilization ratios?
+ * Is there a relationship between card ussage and age or income category?
+ * How do income categories compare to each other in terms of credit limits?
  * Do female customers use the credit card more than male customers?
  * Do people with higher education level use the credit cards more?
  * Is there a relationship between attrition flag and age, education level or income category?
@@ -61,7 +61,13 @@ I want to use some categorical variables like education level, marital status an
 
 ![image](https://user-images.githubusercontent.com/72701739/134211954-57cbdea6-78b0-49a0-8407-02ff4b3cd126.jpg)
 
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+I decided to focus right now on analyzing what is the profile of the customers that decide to stop using their credit cards. In that sense, all the visualizations encode the status using the same color for consistency and I crossed that variable with the others. Also, there are 3 main quantitative variables that I would like to check: avg. expenditure, credit card limit and avg. transaction count, so I would like to add a drop down at the top to select one of these 3 variables to be displayed on the 3 graphs at the top. 
+
+* The first plot is to analyze the relationship between age, expenditure level (or any of the other 2 variables that could be selected) and the credit card status to see how customers with different ages and expenditure patters behave.
+* The second and third plot present the expenditure level (or any of the other 2 variables that could be selected) by income level and education level respectively. This relates to the question about how people with higher education or income uses their cards.
+* The fourth and fifth plot (the two at the bottom) check how the people that stopped using their cards distribute by card type and gender
+
+It would be great to use the plots at the bottom as filters for the ones at the top to filter the data by card type and gender and see how the behavior changes. Also a tooltip should appear as the mouse is placed above and bar, point or part of the circles to show the values of the variables that belong to it.
 
 ## Open Questions
 
