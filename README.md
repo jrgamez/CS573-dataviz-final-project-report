@@ -59,7 +59,7 @@ I want to use some categorical variables like education level, marital status an
 
 ## Sketches
 
-[![image](https://user-images.githubusercontent.com/72701739/134211954-57cbdea6-78b0-49a0-8407-02ff4b3cd126.jpg)]
+![image](https://user-images.githubusercontent.com/72701739/134211954-57cbdea6-78b0-49a0-8407-02ff4b3cd126.jpg)
 
 (describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
 
