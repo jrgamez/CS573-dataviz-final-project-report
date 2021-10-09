@@ -61,7 +61,7 @@ I want to use some categorical variables like education level, marital status an
 
 ![image](https://user-images.githubusercontent.com/72701739/134211954-57cbdea6-78b0-49a0-8407-02ff4b3cd126.jpg)
 
-I decided to focus right now on analyzing what is the profile of the customers that decide to stop using their credit cards. In that sense, all the visualizations encode the status using the same color for consistency and I crossed that variable with the others. Also, there are 3 main quantitative variables that I would like to check: avg. expenditure, credit card limit and avg. transaction count, so I would like to add a drop down at the top to select one of these 3 variables to be displayed on the 3 graphs at the top. 
+I decided to focus right now on analyzing what is the profile of the customers that decide to stop using their credit cards. In that sense, all the visualizations encode the status using the same color for consistency and I crossed that variable with the others. Also, there are 3 main quantitative variables that I would like to check: Total Transactions Amount, Credit Limit and Total Revolving Balance, so I would like to add a drop down at the top to select one of these 3 variables to be displayed on the y-axis of the 3 graphs at the top. 
 
 * The first plot is to analyze the relationship between age, expenditure level (or any of the other 2 variables that could be selected) and the credit card status to see how customers with different ages and expenditure patters behave.
 * The second and third plot present the expenditure level (or any of the other 2 variables that could be selected) by income level and education level respectively. This relates to the question about how people with higher education or income uses their cards.
