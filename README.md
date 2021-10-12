@@ -34,9 +34,9 @@ The detail of all the columns is presented below:
 | 20 | Total_Ct_Chng_Q4_Q1 | Quantitative  | Change in Transaction Count (Q4 over Q1)  |
 | 21 | Avg_Utilization_Ratio | Quantitative  | Average Card Utilization Ratio |
 
-## Questions & Tasks
+## Main Goal, Questions & Tasks
 
-The main goal for this project is to create a visualization to perform a exploratory data analysis on the dataset to by able to visualize the relationship between attrition and all the other variables to see how it varies. The following tasks and questions will drive the visualization and interaction decisions for this project:
+The main goal for this project is to create a visualization that can be used to perform an exploratory data analysis on the dataset. The main task is to visualize the relationship between the attrition flag and all the other variables available to identify the main features that are associated with a client that stopped being a customer of the bank and create a profile. The following questions are some examples of questions that could be answered using the final dashboard and will drive the visualizations and interaction decisions for this project:
 
  * Is there a relationship between card usage and age or income category?
  * How do income categories compare to each other in terms of credit limits?
@@ -45,19 +45,20 @@ The main goal for this project is to create a visualization to perform a explora
  * Is there a relationship between attrition flag and age, education level or income category?
  * What is the relationship between the usage and card possession?
 
-I want to use some categorical variables like education level, marital status and age group (new column) to filter the data and make the analysis more dynamic and interactive.
+## Proposed Dashboard and Sketches
 
-## Sketches
+To be able to answer the proposed questions and perform an effective exploratory analysis of the dataset, a dashboard with 5 different sections is proposed. The idea is to have a section with all the menus so the users can select the variables that will be displayed on the graphs and 4 other sections to display the relationship between the attrition flag variable and some combinations of some other quantitative and categorical variables. 
+
+All the plots will encode the attrition flag variable using the same color for consistency, the analysis will focus on 5 main quantitative variables: customer age, credit limit, total transactions amount, total revolving balance and total transactions count; so these will be options present on the menus and the categorical variables: education level, marital status, income category, card category and gender will be used to filter the data presented on the visualizations to make the analysis more dynamic and interactive. Finally, with all of these ideas in mind, the sketch of the proposed dashboard is presented below:
 
 ![image](https://user-images.githubusercontent.com/72701739/134211954-57cbdea6-78b0-49a0-8407-02ff4b3cd126.jpg)
 
-I decided to focus right now on analyzing what is the profile of the customers that decide to stop using their credit cards. In that sense, all the visualizations encode the status using the same color for consistency and I crossed that variable with the others. Also, there are 3 main quantitative variables that I would like to check: Total Transactions Amount, Credit Limit and Total Revolving Balance, so I would like to add a drop down at the top to select one of these 3 variables to be displayed on the y-axis of the 3 graphs at the top. 
+* The first graph is a scatter plot that can be used to analyze the relationship between two quantitative variables and the attrition status of the customers to find patters.
+* The second plot is a clustered bar chart that presents the relationship between one quantitative variable (y-axis) and one categorical variable (x-axis) and the attrition status using the average value for each category. This can enable the user to see how customers in different categories behave.
+* The third plot is an array of donut charts that displays the percentage of attrited customers based on a categorical variable (x-axis). The number of donut charts on the array depends on the number of categories that the selected variable has and can be used to see how the percentage of attrited customers varies over different categories.
+* The last plot is an array of boxplots that shows the distribution of a quantitative variable (y-axis) by the attrition flag value (x-axis). This will be used to analyze how the distribution of a quantitative variable changes based on the attrition status of the customers.
 
-* The first plot is to analyze the relationship between age, expenditure level (or any of the other 2 variables that could be selected) and the credit card status to see how customers with different ages and expenditure patters behave.
-* The second and third plot present the expenditure level (or any of the other 2 variables that could be selected) by income level and education level respectively. This relates to the question about how people with higher education or income uses their cards.
-* The fourth and fifth plot (the two at the bottom) check how the people that stopped using their cards distribute by card type and gender
-
-It would be great to use the plots at the bottom as filters for the ones at the top to filter the data by card type and gender and see how the behavior changes. Also a tooltip should appear as the mouse is placed above and bar, point or part of the circles to show the values of the variables that belong to it.
+Finally, all the plots share the same legend since the attrition flag variable is used in all of them and there would be a highlight effect when the users hover over the values on the legend to highlight the corresponding elements on the plots. Also a tooltip will appear as the mouse is placed over any element on all the graphs to display additional information and the donut charts will be used to filter the data on the other plots so only the values for the selected category are used and displayed.
 
 ## Prototypes
 
@@ -73,7 +74,7 @@ The second one is a grouped bar chart that shows the average amount spent by the
 
 ## Schedule of Deliverables
 
-1. Create reusable Histogram and Boxplot visualizations with dynamic columns. (Oct 20th)
+1. Create a reusable Boxplot visualization with dynamic columns. (Oct 20th)
 2. Create a canvas to arrange all the elements of my final visualization. (Oct 27th)
     * Accommodate all the plots in a 4 by 4 grid.
     * Create a section for all the menus of the plots.
