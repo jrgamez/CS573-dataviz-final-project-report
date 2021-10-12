@@ -45,7 +45,7 @@ The main goal for this project is to create a visualization that can be used to 
  * Is there a relationship between attrition flag and age, education level or income category?
  * What is the relationship between the usage and card possession?
 
-## Proposed Dashboard and Sketches
+## Proposed Dashboard Sketch
 
 To be able to answer the proposed questions and perform an effective exploratory analysis of the dataset, a dashboard with 5 different sections is proposed. The idea is to have a section with all the menus so the users can select the variables that will be displayed on the graphs and 4 other sections to display the relationship between the attrition flag variable and some combinations of some other quantitative and categorical variables. 
 
