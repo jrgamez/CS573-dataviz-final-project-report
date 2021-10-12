@@ -75,12 +75,12 @@ It would be great to use the plots at the bottom as filters for the ones at the 
 
 1. Create reusable Histogram and Boxplot visualizations with dynamic columns. (Oct 20th)
 2. Create a canvas to arrange all the elements of my final visualization. (Oct 27th)
-  * Accommodate all the plots in a 4 by 4 grid.
-  * Create a section for all the menus of the plots.
-  * Add titles and legends. 
+    * Accommodate all the plots in a 4 by 4 grid.
+    * Create a section for all the menus of the plots.
+    * Add titles and legends. 
 3. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Oct 30th)
 4. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 3rd)
 5. Add the interaction between the plots. (Nov 7th)
-  * Add a filtering effect when hovering over a donut chart or a clustered bar.
-  * Add a highlighting effect when hovering over the values on the legend. (It is common for all the plots)
+    * Add a filtering effect when hovering over a donut chart or a clustered bar.
+    * Add a highlighting effect when hovering over the values on the legend. (It is common for all the plots)
 6. Test all the functionality and deliver the final visualization. (Nov 10th)
