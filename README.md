@@ -53,7 +53,7 @@ All the plots will encode the attrition flag variable using the same color for c
 
 ![image](https://user-images.githubusercontent.com/72701739/134211954-57cbdea6-78b0-49a0-8407-02ff4b3cd126.jpg)
 
-* The first graph is a scatter plot that can be used to analyze the relationship between two quantitative variables and the attrition status of the customers to find patters.
+* The first graph is a scatter plot that can be used to analyze the relationship between two quantitative variables and the attrition status of the customers to find patterns.
 * The second plot is a clustered bar chart that presents the relationship between one quantitative variable (y-axis) and one categorical variable (x-axis) and the attrition status using the average value for each category. This can enable the user to see how customers in different categories behave.
 * The third plot is an array of donut charts that displays the percentage of attrited customers based on a categorical variable (x-axis). The number of donut charts on the array depends on the number of categories that the selected variable has and can be used to see how the percentage of attrited customers varies over different categories.
 * The last plot is an array of boxplots that shows the distribution of a quantitative variable (y-axis) by the attrition flag value (x-axis). This will be used to analyze how the distribution of a quantitative variable changes based on the attrition status of the customers.
