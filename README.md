@@ -34,21 +34,9 @@ The detail of all the columns is presented below:
 | 20 | Total_Ct_Chng_Q4_Q1 | Quantitative  | Change in Transaction Count (Q4 over Q1)  |
 | 21 | Avg_Utilization_Ratio | Quantitative  | Average Card Utilization Ratio |
 
-## Prototypes
-
-I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still use them.
-
-[![image](https://user-images.githubusercontent.com/72701739/136973933-7602af34-11ce-43ab-9e38-e2512834496d.png)](https://vizhub.com/jrgamez/2f14457296a247a98d956dc34782e219)
-
-The second one is a grouped bar chart that shows the average amount spent by the customers using their credit cards by gender and education level. The gender was encoded using different color and the bars where placed next to each other to compare between both genders within the same education level. Also one goal is to see how the amounts spent tend to change as the customers acquire a higher education level.
-
-[![image](https://user-images.githubusercontent.com/72701739/136973949-470f74e7-af94-4da3-9f1e-4aeacffdc243.png)](https://vizhub.com/jrgamez/58a0f64508a74969bbe78865c49b7216)
-
-[![image](https://user-images.githubusercontent.com/72701739/136973957-b9990e36-34ff-4328-a655-674659cd7f7d.png)](https://vizhub.com/jrgamez/c0eeae34b7d7492ca0c340ffb4c10b21)
-
 ## Questions & Tasks
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+The main goal for this project is to create a visualization to perform a exploratory data analysis on the dataset to by able to visualize the relationship between attrition and all the other variables to see how it varies. The following tasks and questions will drive the visualization and interaction decisions for this project:
 
  * Is there a relationship between card usage and age or income category?
  * How do income categories compare to each other in terms of credit limits?
@@ -70,6 +58,18 @@ I decided to focus right now on analyzing what is the profile of the customers t
 * The fourth and fifth plot (the two at the bottom) check how the people that stopped using their cards distribute by card type and gender
 
 It would be great to use the plots at the bottom as filters for the ones at the top to filter the data by card type and gender and see how the behavior changes. Also a tooltip should appear as the mouse is placed above and bar, point or part of the circles to show the values of the variables that belong to it.
+
+## Prototypes
+
+I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still use them.
+
+[![image](https://user-images.githubusercontent.com/72701739/136973933-7602af34-11ce-43ab-9e38-e2512834496d.png)](https://vizhub.com/jrgamez/2f14457296a247a98d956dc34782e219)
+
+The second one is a grouped bar chart that shows the average amount spent by the customers using their credit cards by gender and education level. The gender was encoded using different color and the bars where placed next to each other to compare between both genders within the same education level. Also one goal is to see how the amounts spent tend to change as the customers acquire a higher education level.
+
+[![image](https://user-images.githubusercontent.com/72701739/136973949-470f74e7-af94-4da3-9f1e-4aeacffdc243.png)](https://vizhub.com/jrgamez/58a0f64508a74969bbe78865c49b7216)
+
+[![image](https://user-images.githubusercontent.com/72701739/136973957-b9990e36-34ff-4328-a655-674659cd7f7d.png)](https://vizhub.com/jrgamez/c0eeae34b7d7492ca0c340ffb4c10b21)
 
 ## Schedule of Deliverables
 
