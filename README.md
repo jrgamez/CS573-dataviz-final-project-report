@@ -38,17 +38,19 @@ The detail of all the columns is presented below:
 
 I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still use them.
 
-[![image](https://user-images.githubusercontent.com/72701739/133905253-31179699-0b8a-4937-9560-0afa7bd0a0d4.PNG)](https://vizhub.com/jrgamez/c0201ec0375049798e90aef67fdc677a)
+[![image](https://user-images.githubusercontent.com/72701739/136973933-7602af34-11ce-43ab-9e38-e2512834496d.png)](https://vizhub.com/jrgamez/2f14457296a247a98d956dc34782e219)
 
 The second one is a grouped bar chart that shows the average amount spent by the customers using their credit cards by gender and education level. The gender was encoded using different color and the bars where placed next to each other to compare between both genders within the same education level. Also one goal is to see how the amounts spent tend to change as the customers acquire a higher education level.
 
-[![image](https://user-images.githubusercontent.com/72701739/133905266-7915dd52-a8ac-4d8b-8119-70096f157553.PNG)](https://vizhub.com/jrgamez/6fa5ab323e6e4156bbc8375cf611e094)
+[![image](https://user-images.githubusercontent.com/72701739/136973949-470f74e7-af94-4da3-9f1e-4aeacffdc243.png)](https://vizhub.com/jrgamez/58a0f64508a74969bbe78865c49b7216)
+
+[![image](https://user-images.githubusercontent.com/72701739/136973957-b9990e36-34ff-4328-a655-674659cd7f7d.png)](https://vizhub.com/jrgamez/c0eeae34b7d7492ca0c340ffb4c10b21)
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
 
- * Is there a relationship between card ussage and age or income category?
+ * Is there a relationship between card usage and age or income category?
  * How do income categories compare to each other in terms of credit limits?
  * Do female customers use the credit card more than male customers?
  * Do people with higher education level use the credit cards more?
@@ -69,9 +71,16 @@ I decided to focus right now on analyzing what is the profile of the customers t
 
 It would be great to use the plots at the bottom as filters for the ones at the top to filter the data by card type and gender and see how the behavior changes. Also a tooltip should appear as the mouse is placed above and bar, point or part of the circles to show the values of the variables that belong to it.
 
-## Open Questions
+## Schedule of Deliverables
 
- * I want to explore more some interactions but I'm having problems understading the events on the browser and how to handle them. Are there any more videos about it? Where can I see more examples?
- * How can I create functions to do the plots once I already created one? I don't know other way of referencing a feature in an object than object.feature
- * I had problems processing my data to create some plots on the homework. Do I need to create my own functions to do the groupings or D3 has some functions already implemented to process the data and group it? Where can I find the documentation?
-
+1. Create reusable Histogram and Boxplot visualizations with dynamic columns. (Oct 20th)
+2. Create a canvas to arrange all the elements of my final visualization. (Oct 27th)
+  * Accommodate all the plots in a 4 by 4 grid.
+  * Create a section for all the menus of the plots.
+  * Add titles and legends. 
+3. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Oct 30th)
+4. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 3rd)
+5. Add the interaction between the plots. (Nov 7th)
+  * Add a filtering effect when hovering over a donut chart or a clustered bar.
+  * Add a highlighting effect when hovering over the values on the legend. (It is common for all the plots)
+6. Test all the functionality and deliver the final visualization. (Nov 10th)
