@@ -39,9 +39,9 @@ The detail of all the columns is presented below:
 The main goal for this project is to create a visualization that can be used to perform an exploratory data analysis on the dataset. The main task is to visualize the relationship between the attrition flag and all the other variables available to identify the main features that are associated with a client that stopped being a customer of the bank and create a profile. The following questions are some examples of questions that could be answered using the final dashboard and will drive the visualizations and interaction decisions for this project:
 
  * Is there a relationship between card usage and age or income category?
- * How do income categories compare to each other in terms of credit limits?
+ * How do income categories compare to each other in terms of credit limits and attrition levels?
  * Do female customers use the credit card more than male customers?
- * Do people with higher education level use the credit cards more?
+ * Do people with higher education level use the credit cards more or attrite more?
  * Is there a relationship between attrition flag and age, education level or income category?
  * What is the relationship between the usage and card possession?
 
@@ -62,26 +62,29 @@ Finally, all the plots share the same legend since the attrition flag variable i
 
 ## Prototypes
 
-I’ve created some proof of concept visualizations of this data. The first one is a scatter plot that shows the age of the customers on the x-axis, their total expenditure using the card on the y-axis and their current card status on the color of the points (black if they still have the card or red if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still use them.
+I’ve created some of the proposed plots on vizhub. The first one is a scatter plot that shows the age of the customers on the x-axis, their total transactions amount using the card on the y-axis and their current attrition status on the color of the points (blue if they still have the card or gray if they don’t). The main idea is to group the customers based on their expenditure levels and also compare the expenditure level of customers that stopped using their cards with the ones that still use them. In this plot the users can change the variables displayed and there is a highlighting effect when the mouse hovers over the legend.
 
 [![image](https://user-images.githubusercontent.com/72701739/136973933-7602af34-11ce-43ab-9e38-e2512834496d.png)](https://vizhub.com/jrgamez/2f14457296a247a98d956dc34782e219)
 
-The second one is a grouped bar chart that shows the average amount spent by the customers using their credit cards by gender and education level. The gender was encoded using different color and the bars where placed next to each other to compare between both genders within the same education level. Also one goal is to see how the amounts spent tend to change as the customers acquire a higher education level.
+The second one is a grouped bar chart that shows the average amount spent by the customers using their credit cards by income level grouped by attrition flag. Again, the attrition flag was encoded using the same colors on the scatter plot for consistency and the bars where placed next to each other to compare the values between different categories within the same income level. Additionally, in this plot the users can change the variables displayed but only categorical variables can be selected for the x-axis, quantitative variables for the y-axis and there is a highlighting effect when the mouse hovers over the bars and a tooltip with the information used to calculate the averages.
 
 [![image](https://user-images.githubusercontent.com/72701739/136973949-470f74e7-af94-4da3-9f1e-4aeacffdc243.png)](https://vizhub.com/jrgamez/58a0f64508a74969bbe78865c49b7216)
+
+Finally, the last prototype is an array of donut charts that shows the percentage of customers that have attrited by marital status. Additionally, in this plot the users can change the categorical variable to be used for the x-axis and there is a highlighting effect when the mouse hovers over the bars.
 
 [![image](https://user-images.githubusercontent.com/72701739/136973957-b9990e36-34ff-4328-a655-674659cd7f7d.png)](https://vizhub.com/jrgamez/c0eeae34b7d7492ca0c340ffb4c10b21)
 
 ## Schedule of Deliverables
 
 1. Create a reusable Boxplot visualization with dynamic columns. (Oct 20th)
-2. Create a canvas to arrange all the elements of my final visualization. (Oct 27th)
+2. Add interaction to the boxplots. (Oct 24)
+3. Create a canvas to arrange all the elements of my final visualization. (Oct 30th)
     * Accommodate all the plots in a 4 by 4 grid.
     * Create a section for all the menus of the plots.
     * Add titles and legends. 
-3. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Oct 30th)
-4. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 3rd)
-5. Add the interaction between the plots. (Nov 7th)
+4. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Nov 3rd)
+5. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 7th)
+6. Add the interaction between the plots. (Nov 10th)
     * Add a filtering effect when hovering over a donut chart or a clustered bar.
     * Add a highlighting effect when hovering over the values on the legend. (It is common for all the plots)
-6. Test all the functionality and deliver the final visualization. (Nov 10th)
+7. Test all the functionality and deliver the final visualization. (Nov 17th)
