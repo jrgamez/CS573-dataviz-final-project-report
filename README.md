@@ -51,7 +51,7 @@ To be able to answer the proposed questions and perform an effective exploratory
 
 All the plots will encode the attrition flag variable using the same color for consistency, the analysis will focus on 5 main quantitative variables: customer age, credit limit, total transactions amount, total revolving balance and total transactions count; so these will be options present on the menus and the categorical variables: education level, marital status, income category, card category and gender will be used to filter the data presented on the visualizations to make the analysis more dynamic and interactive. Finally, with all of these ideas in mind, the sketch of the proposed dashboard is presented below:
 
-![image](https://user-images.githubusercontent.com/72701739/137058581-8f573a56-2700-4869-9793-19063521d865.jpg)
+![image](https://user-images.githubusercontent.com/72701739/137059016-0b85f161-1c32-47aa-a65b-9f756fde8c4b.jpg)
 
 * The first graph is a scatter plot that can be used to analyze the relationship between two quantitative variables and the attrition status of the customers to find patterns.
 * The second plot is a clustered bar chart that presents the relationship between one quantitative variable (y-axis) and one categorical variable (x-axis) and the attrition status using the average value for each category. This can enable the user to see how customers in different categories behave.
