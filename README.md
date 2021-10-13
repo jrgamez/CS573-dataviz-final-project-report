@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is from https://www.kaggle.com/sakshigoyal7/credit-card-customers
+The data I propose to visualize for my project is the [Bank Customers Dataset](https://gist.github.com/jrgamez/c9ea9e8a5d6d000619b31b8499af6a83). 
 
 It is a dataset that contains demographic variables about the customers of a bank like age, gender, education level, etc and variables that capture their relationship with them, the patterns of use of their credit cards like transaction amounts, utilization ratio, month on book and credit limit and their current status. After doing some cleaning of the null values present and two unnecessary columns, its final structure contains:
   - 21 columns
