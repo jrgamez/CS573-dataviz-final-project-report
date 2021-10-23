@@ -74,7 +74,9 @@ Finally, the last prototype is an array of donut charts that shows the percentag
 
 [![image](https://user-images.githubusercontent.com/72701739/136973957-b9990e36-34ff-4328-a655-674659cd7f7d.png)](https://vizhub.com/jrgamez/c0eeae34b7d7492ca0c340ffb4c10b21)
 
-## Feedback iteration
+## Iterated Work
+
+Since it is difficult to compare the sizes of the gray segments between different donuts on the array of donut charts, I changed the representation to a stacked bar chart. In this case the dynamic selection of the categorical variable remains but now there is a bar for each category instead of a donut. Also the users can hover over each bar to see the exact percentage value associated with it and can hover over the legend to highlight the bars. This change makes easier to compare between different categories since the percentage difference are small so it is better to present them next to each other.
 
 [![image](https://user-images.githubusercontent.com/72701739/138563693-f907cb29-dbb1-4c47-b5e3-cf285ea6091c.PNG)](https://vizhub.com/jrgamez/7e6f934dff2448308837218455480ec5)
 
