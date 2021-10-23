@@ -74,6 +74,10 @@ Finally, the last prototype is an array of donut charts that shows the percentag
 
 [![image](https://user-images.githubusercontent.com/72701739/136973957-b9990e36-34ff-4328-a655-674659cd7f7d.png)](https://vizhub.com/jrgamez/c0eeae34b7d7492ca0c340ffb4c10b21)
 
+## Feedback iteration
+
+[![image](https://user-images.githubusercontent.com/72701739/138563693-f907cb29-dbb1-4c47-b5e3-cf285ea6091c.PNG)](https://vizhub.com/jrgamez/7e6f934dff2448308837218455480ec5)
+
 ## Schedule of Deliverables
 
 1. Create a reusable Boxplot visualization with dynamic columns. (Oct 20th)
