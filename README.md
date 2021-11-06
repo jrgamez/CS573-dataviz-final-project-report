@@ -76,9 +76,17 @@ Finally, the last prototype is an array of donut charts that shows the percentag
 
 ## Iterated Work
 
+### Nov 3rd, 2021
 Since it is difficult to compare the sizes of the gray segments between different donuts on the array of donut charts, I changed the representation to a stacked bar chart. In this case the dynamic selection of the categorical variable remains but now there is a bar for each category instead of a donut. Also the users can hover over each bar to see the exact percentage value associated with it and can hover over the legend to highlight the bars. This change makes easier to compare between different categories since the percentage difference are small so it is better to present them next to each other.
 
 [![image](https://user-images.githubusercontent.com/72701739/138563693-f907cb29-dbb1-4c47-b5e3-cf285ea6091c.PNG)](https://vizhub.com/jrgamez/7e6f934dff2448308837218455480ec5)
+
+### Nov 10th, 2021
+I created the dynamic boxplots so the users can see the distribution of quantitative variables by the attrition status of the customers. This enables the users to select the quantitative variables that they want to visualize and compare the distribution of both kind of customers to see how the value of the variables differ from existing and attrited ones. Some information about the quartiles, minimum and maximun values is included on the tooltip that can be seen by hovering over the lines and boxes on the plots.
+
+[![image](https://user-images.githubusercontent.com/72701739/140621335-dc6ba0bf-6a2b-41db-9df9-a2de19e741f5.PNG)](https://vizhub.com/jrgamez/245fb4ed3a264319bf1fb23b6820f3e2)
+
+Finally, I created a grid to put together all the plots and created a section for all the menus and the legend (since its the same for all the plots). the menus are working but some of the functionality that was on the legend is not working yet.
 
 [![image](https://user-images.githubusercontent.com/72701739/140621008-9bef884e-5b84-4427-98f8-7d25fe0efbf5.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
 
