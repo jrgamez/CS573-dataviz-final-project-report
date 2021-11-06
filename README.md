@@ -80,6 +80,8 @@ Since it is difficult to compare the sizes of the gray segments between differen
 
 [![image](https://user-images.githubusercontent.com/72701739/138563693-f907cb29-dbb1-4c47-b5e3-cf285ea6091c.PNG)](https://vizhub.com/jrgamez/7e6f934dff2448308837218455480ec5)
 
+[![image](https://user-images.githubusercontent.com/72701739/140621008-9bef884e-5b84-4427-98f8-7d25fe0efbf5.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
+
 ## Schedule of Deliverables
 
 1. Create a reusable Boxplot visualization with dynamic columns. (Oct 20th)
