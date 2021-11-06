@@ -86,7 +86,7 @@ I created the dynamic boxplots so the users can see the distribution of quantita
 
 [![image](https://user-images.githubusercontent.com/72701739/140621335-dc6ba0bf-6a2b-41db-9df9-a2de19e741f5.PNG)](https://vizhub.com/jrgamez/245fb4ed3a264319bf1fb23b6820f3e2)
 
-Finally, I created a grid to put together all the plots and created a section for all the menus and the legend (since its the same for all the plots). the menus are working but some of the functionality that was on the legend is not working yet.
+Finally, I created a grid and put together all the plots that I've created until now. Also created a section for all the menus to change the variables displayed in each plot and the legend with the attrition status (Its the same for all the plots). The menus and hovering functionality of the plots is working but some of the functionality that was on the legend is not working yet and that would be the focus of the next iteration.
 
 [![image](https://user-images.githubusercontent.com/72701739/140621008-9bef884e-5b84-4427-98f8-7d25fe0efbf5.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
 
