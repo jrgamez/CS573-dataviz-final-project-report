@@ -86,20 +86,27 @@ I created the dynamic boxplots so the users can see the distribution of quantita
 
 [![image](https://user-images.githubusercontent.com/72701739/140621335-dc6ba0bf-6a2b-41db-9df9-a2de19e741f5.PNG)](https://vizhub.com/jrgamez/245fb4ed3a264319bf1fb23b6820f3e2)
 
-Finally, I created a grid and put together all the plots that I've created until now. Also created a section for all the menus to change the variables displayed in each plot and the legend with the attrition status (Its the same for all the plots). The menus and hovering functionality of the plots is working but some of the functionality that was on the legend is not working yet and that would be the focus of the next iteration.
+Also, I created a grid and put together all the plots that I've created until now. Also created a section for all the menus to change the variables displayed in each plot and the legend with the attrition status (It's the same for all the plots). I had to resize the elements and adjust them to make sure that they fitted in a cohesive way. The menus and hovering functionality of the plots is working but some of the functionality that was on the legend is not working yet and that would be the focus of the next iteration.
 
 [![image](https://user-images.githubusercontent.com/72701739/140621008-9bef884e-5b84-4427-98f8-7d25fe0efbf5.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
 
+### Nov 16th, 2021
+Based on the feedback, I decided to create a dynamic violin plot visualization to replace the box plots that I created last week. In this case the same data is being encoded (the distribution of quantitative variables by attrition status) but the representation is less restrictive as it displays more details to the users which can be more helpful and make it easier to compare between the different shapes of the distributions. The information about the quartiles, minimum and maximum values is still included in the tooltip that can be seen by hovering over the violins on the plot. Also I added this new plot to the dashboard grid.
+
+[![image](https://user-images.githubusercontent.com/72701739/142013783-54e7b203-b4b0-443d-8184-21cc87b12029.PNG)](https://vizhub.com/jrgamez/43c93bbdb60741fea81e9ff24d8b0b7c)
+
+[![image](https://user-images.githubusercontent.com/72701739/142013792-71b2cb0b-1e17-44fa-891a-17e81b52baa6.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
+
 ## Schedule of Deliverables
 
-1. Create a reusable Boxplot visualization with dynamic columns. (Oct 20th)
-2. Add interaction to the boxplots. (Oct 24)
-3. Create a canvas to arrange all the elements of my final visualization. (Oct 30th)
+1. Create a reusable Boxplot visualization with dynamic columns. (Oct 20th) **(DONE)**
+2. Add interaction to the boxplots. (Oct 24) **(DONE)**
+3. Create a canvas to arrange all the elements of my final visualization. (Oct 30th) **(DONE)**
     * Accommodate all the plots in a 4 by 4 grid.
     * Create a section for all the menus of the plots.
     * Add titles and legends. 
-4. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Nov 3rd)
-5. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 7th)
+4. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Nov 3rd) **(DONE)**
+5. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 7th) **(DONE)**
 6. Add the interaction between the plots. (Nov 10th)
     * Add a filtering effect when hovering over a donut chart or a clustered bar.
     * Add a highlighting effect when hovering over the values on the legend. (It is common for all the plots)
