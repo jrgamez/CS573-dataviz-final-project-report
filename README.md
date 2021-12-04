@@ -1,4 +1,5 @@
 # Data Visualization Final Project
+Link to the report video: https://www.youtube.com/watch?v=bsoTVa65CmI&ab_channel=jrgamezc
 
 ## Data
 
