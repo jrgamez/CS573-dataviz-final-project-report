@@ -95,6 +95,7 @@ Based on the feedback, I decided to create a dynamic violin plot visualization t
 
 [![image](https://user-images.githubusercontent.com/72701739/142013783-54e7b203-b4b0-443d-8184-21cc87b12029.PNG)](https://vizhub.com/jrgamez/43c93bbdb60741fea81e9ff24d8b0b7c)
 
+### Final Result
 [![image](https://user-images.githubusercontent.com/72701739/142013792-71b2cb0b-1e17-44fa-891a-17e81b52baa6.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
 
 ## Schedule of Deliverables
@@ -108,6 +109,5 @@ Based on the feedback, I decided to create a dynamic violin plot visualization t
 4. Tweak the size of all the elements on the plots to make them fit nicely on the grid. (Nov 3rd) **(DONE)**
 5. Check that all the individual interactions are working correctly and fix the ones that doesn't. (Nov 7th) **(DONE)**
 6. Add the interaction between the plots. (Nov 10th)
-    * Add a filtering effect when hovering over a donut chart or a clustered bar.
     * Add a highlighting effect when hovering over the values on the legend. (It is common for all the plots)
-7. Test all the functionality and deliver the final visualization. (Nov 17th)
+7. Test all the functionality and deliver the final visualization. (Nov 17th) (DONE)
