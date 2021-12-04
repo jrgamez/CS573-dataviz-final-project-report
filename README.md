@@ -95,7 +95,7 @@ Based on the feedback, I decided to create a dynamic violin plot visualization t
 
 [![image](https://user-images.githubusercontent.com/72701739/142013783-54e7b203-b4b0-443d-8184-21cc87b12029.PNG)](https://vizhub.com/jrgamez/43c93bbdb60741fea81e9ff24d8b0b7c)
 
-### Final Result
+## Final Dashboard
 [![image](https://user-images.githubusercontent.com/72701739/142013792-71b2cb0b-1e17-44fa-891a-17e81b52baa6.PNG)](https://vizhub.com/jrgamez/56624b2e15714fd59582ffe0d6de11a1)
 
 ## Schedule of Deliverables
